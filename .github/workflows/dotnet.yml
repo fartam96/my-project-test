@@ -27,7 +27,7 @@ jobs:
     - name: Test
       run: dotnet test **/*.sln
     - name: Publish
-      run: dotnet publish .testpush/testpush.csproj -c Release -o ./publish
+      run: dotnet publish ./testpush/testpush.csproj -c Release -o ./publish
       # Change path if needed
 
     - name: Upload published app
