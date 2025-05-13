@@ -1,0 +1,38 @@
+# .NET build files
+bin/
+obj/
+
+# User-specific files
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core environment files
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+
+# User-specific files for Rider (JetBrains)
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+Thumbs.db
+Desktop.ini
+
+# NPM files (if using Node.js)
+node_modules/
+
+# .NET Core tool files
+tools/
+
+# ASP.NET Core secrets file
+secrets.json
